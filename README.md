@@ -2,21 +2,21 @@
 
 ## 1. Project Setup
 
-* [ ] Initialize Go module: `go mod init github.com/Open-Knowledge-AI/bubble-slurm`
-* [ ] Add dependencies:
+* [X] Initialize Go module: `go mod init github.com/Open-Knowledge-AI/bubble-slurm`
+* [X] Add dependencies:
 
   * `github.com/charmbracelet/bubbletea`
   * `github.com/charmbracelet/bubbles`
   * `github.com/charmbracelet/lipgloss`
-* [ ] Create basic folder structure: `cmd/`, `internal/`, `pkg/`
+* [x] Create basic folder structure: `cmd/`, `internal/`, `pkg/`
 
 ---
 
 ## 2. Basic TUI Skeleton
 
-* [ ] Implement `main.go` with `tea.Model` structure: `Init()`, `Update()`, `View()`
-* [ ] Add placeholder table with static job data
-* [ ] Implement basic keybindings: `q` to quit, arrow keys to navigate
+* [x] Implement `main.go` with `tea.Model` structure: `Init()`, `Update()`, `View()`
+* [x] Add placeholder table with static job data
+* [x] Implement basic keybindings: `q` to quit, arrow keys to navigate
 
 ---
 
